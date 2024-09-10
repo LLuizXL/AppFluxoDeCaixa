@@ -138,17 +138,22 @@
     <div class="form-group">
         <input type="hidden" asp-for="CadastroAtivo" value="true" />
     </div>
+
+
+
     <div class="row">
         <div class="col col-md-4 mt-4">
-            <a class="btn btn-outline-secondary w-100" asp-action="Index">Cancelar</a>
+            <input type="submit" value="Salvar" class="btn btn-success w-100 btn-sm" />
         </div>
 
         <div class="col-2 col-md mt-4">
         </div>
-        <div class="col col-md-4 mt-4">
-            <input type="submit" value="Salvar" class="btn btn-success w-100" />
-        </div>
 
+
+        
+        <div class="col col-md-4 mt-4 btn btn-secondary btn-sm w-100">
+            <a asp-action="Index">Cancelar</a>
+        </div>
 
 
     </div>
